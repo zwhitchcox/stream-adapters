@@ -26,5 +26,5 @@
   "peerDependencies": {
     "stream-browserify": "^3.0.0",
     "web-streams-polyfill": "^1.3.2"
-  },
+  }
 }
