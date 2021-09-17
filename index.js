@@ -1,9 +1,10 @@
 const {
     newStreamDuplexFromReadableWritablePair,
+    newReadableWritablePairFromDuplex,
     newReadableStreamFromStreamReadable,
     newWritableStreamFromStreamWritable,
     newStreamWritableFromWritableStream,
-    newReadableStreamFromStreamReadable,
+    newStreamReadableFromReadableStream,
 } = require('./lib/conversions');
 
 const {
@@ -17,10 +18,11 @@ const {
 
 module.exports = {
     newStreamDuplexFromReadableWritablePair,
+    newReadableWritablePairFromDuplex,
     newReadableStreamFromStreamReadable,
     newWritableStreamFromStreamWritable,
     newStreamWritableFromWritableStream,
-    newReadableStreamFromStreamReadable,
+    newStreamReadableFromReadableStream,
     toNode,
     toWeb,
     pipeline,
