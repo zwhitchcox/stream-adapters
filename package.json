@@ -1,5 +1,5 @@
 {
-  "name": "@balena/stream-adapters",
+  "name": "stream-adapters",
   "version": "0.0.1",
   "description": "WhatWG web streams and Node stream conversion utilities for node.js",
   "main": "index.js",
@@ -21,7 +21,7 @@
   "author": "Zane Hitchcox <zwhitchcox@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/balena-io-modules/stream-adapters/issues"
+    "url": "https://github.com/zwhitchcox/stream-adapters/issues"
   },
   "peerDependencies": {
     "stream-browserify": "^3.0.0",

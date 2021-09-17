@@ -1,4 +1,4 @@
-# @balena/stream-adapters
+# stream-adapters
 
 WhatWG web streams and conversion utilities for node.js, browser-ready.
 
@@ -13,21 +13,20 @@ without the `WebStream API`, you will need the polyfills:
 * stream-browserify
 * web-streams-polyfill
 
-This code is mostly taken the [node internals](https://github.com/nodejs/node/blob/master/lib/internal/webstreams/adapters.js), and just made to work on both browser and server.
+This code is mostly taken the [node internals](https://github.com/nodejs/node/blob/master/lib/internal/webstreams/adapters.js), and just made to work on both browser and server. All credit should go to @jasnell for the code written here.
 
 Note: This is an experimental api built on top of another experimental api. Use with caution.
 
 
-
 ## Installation
 ```
-npm install @balena/stream-adapters
+npm install stream-adapters
 ```
 
 with peer dependencies:
 
 ```
-npm install @balena/stream-adapters stream-browserify web-streams-polyfill
+npm install --savea-dev stream-adapters stream-browserify web-streams-polyfill
 ```
 
 ## Usage
