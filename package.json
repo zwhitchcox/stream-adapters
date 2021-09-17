@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/balena-io-modules/stream-adapters.git"
+    "url": "https://github.com/zwhitchcox/stream-adapters.git"
   },
   "keywords": [
     "streamspec",
