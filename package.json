@@ -1,6 +1,6 @@
 {
   "name": "stream-adapters",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WhatWG web streams and Node stream conversion utilities for node.js",
   "main": "index.js",
   "scripts": {
